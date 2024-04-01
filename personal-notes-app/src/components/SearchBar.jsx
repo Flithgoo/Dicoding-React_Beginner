@@ -3,7 +3,7 @@ import React from "react";
 function SearchBar({ onSearchChange, searchTerm }) {
   return (
     <div className="search-bar mt-3">
-      <div className="p-1 bg-light rounded rounded-pill shadow-sm mb-4">
+      <div className="p-1 px-2 bg-light rounded rounded-pill shadow-sm mb-4">
         <div className="input-group">
           <input
             onChange={(event) => onSearchChange(event.target.value)}
@@ -25,7 +25,7 @@ function SearchBar({ onSearchChange, searchTerm }) {
         </div>
       </div>
     </div>
-  )
+  );
 }
 
 export default SearchBar;
