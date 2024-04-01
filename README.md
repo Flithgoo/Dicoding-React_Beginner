@@ -19,7 +19,7 @@
 Clone the project
 
 ```bash
-  git clone https://link-to-project
+  git clone https://github.com/Flithgoo/Dicoding-React_Beginner.git
 ```
 
 Go to the project directory, for example :
